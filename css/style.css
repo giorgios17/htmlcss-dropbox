@@ -72,6 +72,10 @@
     padding: 5px 15px;
 }
 
+.m-top-30{
+    margin-top: 30px;
+}
+
 .m-top-40{
     margin-top: 40px;
 }
@@ -86,6 +90,10 @@
 
 .m-btm-50{
     margin-bottom: 50px;
+}
+
+.m-btm-60{
+    margin-bottom: 60px;
 }
 
 .m-lft-60{
@@ -105,6 +113,11 @@ section h3{
     margin bottom: 20px;
     font-size: 30px;
 }
+
+section h2{
+    font-size: 55px;
+}
+
 
 
 /* CONTENT */
@@ -176,11 +189,6 @@ font-size: 50px;
 
 /* SECOND SECTION */
 
-
-.second-section h2{
-    font-size: 65px;
-}
-
 .col{
     border: 1px solid #d8d8da;
     float: left;
@@ -238,10 +246,6 @@ font-size: 50px;
 
 /* THIRD SECTION */
 
-.third-section{
-
-}
-
 #partner-img{
     width: 100%;
 }
@@ -249,3 +253,16 @@ font-size: 50px;
 #partner-text{
     padding: 30px 0px 50px 50px;
 }
+
+/* FOURTH SECTION */
+
+.first-row .float-left,
+.second-row .float-left{
+    width: calc(100% / 3 - 40px);
+}
+
+.first-row img,
+.second-row img{
+    width: 100%;
+}
+
