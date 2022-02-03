@@ -60,7 +60,7 @@
 }
 
 .container{
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding-top: 100px;
 }
@@ -356,8 +356,6 @@ font-size: 50px;
 
 .freetrial h2{
     color: #61082b;
-    width: 50%;
-    margin-left: 250px;
 }
 
 .freetrial-btn{
