@@ -167,10 +167,6 @@ font-size: 50px;
 
 /* SECOND SECTION */
 
-.second-section{
-    /* DA TOGLIERE ALTEZZA */
-    height: 1500px;
-}
 
 .second-section h2{
     font-size: 65px;
@@ -225,4 +221,17 @@ font-size: 50px;
 
 .fa-check{
     color: #0161ff;
+}
+
+.enterprise{
+    border: 1px solid #d8d8da;
+}
+
+.enterprise .float-left{
+    padding: 35px 30px 30px 30px;
+}
+
+.enterprise h3{
+    font-size: 30px;
+    margin-bottom: 20px;
 }
