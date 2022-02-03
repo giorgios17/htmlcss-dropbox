@@ -110,7 +110,6 @@ body{
 
 .first-section{
     background-color: #b4d0e7;
-    height: 1000px;
     padding-top: 110px;
 }
 
@@ -120,6 +119,7 @@ main h1{
 
 #first-section-img{
     width: 100%
+    
 }
 
 .first-section p{
