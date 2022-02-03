@@ -266,6 +266,12 @@ font-size: 50px;
     width: 100%;
 }
 
+.partner-btn{
+    color: black;
+    background-color: white;
+    border: 1.5px solid black;
+}
+
 /* FIFTH SECTION */
 
 
@@ -339,5 +345,33 @@ font-size: 50px;
 
 #clear-channel{
     background-color: #ffd830;
+}
+
+/* FREETRIAL */
+
+.freetrial{
+    background-color: #b4d0e7;
+    padding: 200px 200px 200px 200px;
+}
+
+.freetrial-text{
+    float: left;
+    width: 70%;
+
+}
+
+.freetrial h2{
+    color: #61082b;
+    width: 50%;
+    margin-left: 250px;
+}
+
+.freetrial-btn{
+    background-color: white;
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    float: left;
+    margin-left: 100spx;
 }
 
