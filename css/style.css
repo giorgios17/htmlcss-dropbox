@@ -115,7 +115,7 @@ section h3{
 }
 
 section h2{
-    font-size: 55px;
+    font-size: 50px;
 }
 
 
@@ -228,7 +228,7 @@ font-size: 50px;
 }
 
 .line{
-    width: 20%;
+    width: 50px;
     border-bottom: 2px solid #e0e0e1;
 }
 
@@ -264,5 +264,80 @@ font-size: 50px;
 .first-row img,
 .second-row img{
     width: 100%;
+}
+
+/* FIFTH SECTION */
+
+
+.center-logo{
+    position: relative;
+}
+.side-col{
+    width: 30%;
+    height: 550px;
+}
+
+.side-col .float-left{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+.side-col .float-left img{
+    width: 50%;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-col{
+    width: 40%;
+    padding: 50px 100px 30px 50px;
+
+}
+
+.center-col img{
+    width: 30%;
+}
+
+.side-row{
+    width: calc(100% / 2);
+}
+
+/* BG IMG FIFTH SECTION */
+
+#design-it{
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+#arizone-uni{
+    background-color: #61082b;
+}
+
+#florida-uni{
+    background-color: #0093ce;
+}
+
+#topps{
+    background-color: #ff1c1c;
+}
+
+#bicycle{
+    background-color: #d5001f;
+}
+
+#hearst-corp{
+    background-color: #b4d0e7;
+}
+
+#lonely{
+    background-color: #0d2481;
+}
+
+#clear-channel{
+    background-color: #ffd830;
 }
 
