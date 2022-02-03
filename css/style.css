@@ -40,10 +40,29 @@
     width: 60%;
 } 
 
-.btn-blue{
-    background-color: #0061ff;
+.w-70{
+    width: 70%;
 }
 
+.font-w-600{
+    font-weight: 600;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.btn-blue{
+    background-color: #0061ff;
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+}
+
+.m-btm-30{
+    margin-bottom: 30px;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -53,10 +72,11 @@ body{
 
 /* HEADER */
 .header-container{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     line-height: 80px;
     font-size: 18px;
+    background-color: white;
 }
 .logo{
     width: 10%;
@@ -83,13 +103,30 @@ body{
 .start{
     width: 10%;
     float: left;
-    text-decoration: none;
     text-align: center;
 }
 
-.start a{
-    text-decoration: none;
-    color: white;
-    padding: 5px 15px;
-    
+/* FIRST SECTION */
+
+.first-section{
+    background-color: #b4d0e7;
+    height: 1000px;
+    padding-top: 110px;
+}
+
+main h1{
+    font-size: 110px;
+}
+
+#first-section-img{
+    width: 100%
+}
+
+.first-section p{
+    margin-top: 15px;
+}
+
+.fa-arrow-down{
+margin-top: 40px;
+font-size: 50px;
 }
