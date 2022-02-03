@@ -4,6 +4,75 @@
     padding: 0;
 }
 
+/* UTILITY */
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.w-10{
+    width: 10%;
+}
+
+.w-30{
+    width: 30%;
+} 
+
+.w-40{
+    width: 40%;
+} 
+
+.w-50{
+    width: 50%;
+} 
+
+.w-60{
+    width: 60%;
+} 
+
+.btn-blue{
+    background-color: #0061ff;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+
+/* CONTENT */
+
+/* HEADER */
+.header-container{
+    width: 100%;
+    background-color: blueviolet;
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+}
+
+.header-container ul{
+    list-style-type: none;
+}
+
+
+.header-container ul li{
+    display: inline-block;
+}
+
+
+.header-container ul a{
+    text-decoration: none;
+    color: black;
+
 }
