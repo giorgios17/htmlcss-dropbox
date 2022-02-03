@@ -49,8 +49,9 @@
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: auto;
+    padding-top: 100px;
 }
 
 .btn-blue{
@@ -110,7 +111,11 @@ body{
 
 .first-section{
     background-color: #b4d0e7;
-    padding-top: 110px;
+    
+}
+
+.first-section-container{
+    padding: 110px 300px 0;
 }
 
 main h1{
@@ -119,7 +124,7 @@ main h1{
 
 #first-section-img{
     width: 100%
-    
+
 }
 
 .first-section p{
@@ -129,4 +134,14 @@ main h1{
 .fa-arrow-down{
 margin-top: 40px;
 font-size: 50px;
+}
+
+/* SECOND SECTION */
+
+.second-section{
+    height: 1000px;
+}
+
+.second-section h2{
+    font-size: 75px;
 }
