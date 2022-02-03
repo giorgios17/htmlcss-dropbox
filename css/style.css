@@ -96,6 +96,10 @@
     margin-bottom: 60px;
 }
 
+.m-btm-90{
+    margin-bottom: 90px;
+}
+
 .m-lft-60{
     margin-left: 60px;
 }
@@ -104,6 +108,9 @@
     margin-right: 60px;
 }
 
+.text-underline{
+    text-decoration: underline;
+}
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -116,6 +123,10 @@ section h3{
 
 section h2{
     font-size: 50px;
+}
+
+.border-btm{
+    border-bottom: 1px solid #e8e8ea;
 }
 
 
@@ -366,3 +377,29 @@ font-size: 50px;
     float: left;
 }
 
+/* FREQUENT QUESTIONS */
+
+.question{
+    border-top: 1px solid #e8e8ea;
+    padding: 30px 0 30px 0;
+
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    height: 800px;
+}
+
+footer ul{
+    width: calc(100% / 5);
+}
+footer ul li h4{
+    margin-bottom: 10px;
+}
+
+footer ul li{
+    color: white;
+    list-style-type: none;
+}
