@@ -81,12 +81,12 @@ body{
 
 .nav-left{
     float: left;
-width: 40%;
+    width: 40%;
 }
 
 .nav-right{
-    float: right;
-width: 40%;
+    float: left;
+    width: 40%;
 }
 
 .start{
@@ -100,4 +100,5 @@ width: 40%;
     text-decoration: none;
     color: white;
     padding: 5px 15px;
+    
 }
