@@ -66,10 +66,14 @@
 }
 
 .btn-blue{
-    background-color: #0061ff;
+    background-color: #0061ff; 
+}
+
+.btn-all{
     text-decoration: none;
     color: white;
-    padding: 5px 15px;
+    padding: 8px 20px;
+
 }
 
 .m-top-10{
@@ -276,6 +280,11 @@ font-size: 50px;
     padding: 35px 30px 30px 30px;
 }
 
+.plan-btn{
+    width: 100%;
+    text-align: center;
+}
+
 /* THIRD SECTION */
 
 #partner-img{
@@ -311,8 +320,8 @@ font-size: 50px;
     position: relative;
 }
 .side-col{
-    width: 30%;
-    height: 550px;
+    width: 35%;
+    height: 620px;
 }
 
 .side-col .float-left{
@@ -330,7 +339,7 @@ font-size: 50px;
 }
 
 .center-col{
-    width: 40%;
+    width: 30%;
     padding: 50px 100px 30px 50px;
 
 }
@@ -347,7 +356,6 @@ font-size: 50px;
 
 #design-it{
     background-color: #a2d39b;
-    border: 10px solid #d0e9cd;
 }
 
 #arizone-uni{
@@ -414,6 +422,13 @@ footer{
     background-color: black;
     height: 800px;
 }
+
+.footer-container{
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+}
+
 footer .float-left{
     width: calc(100% / 5);
 }
@@ -443,4 +458,10 @@ footer ul li a{
 
 .lang-page{
     color: #4c4c4c;
+}
+
+/* HOVER */
+
+.side-col .float-left:hover{
+    border: 15px solid rgba(255, 255, 255, .4);
 }
