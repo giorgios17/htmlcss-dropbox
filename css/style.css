@@ -426,6 +426,16 @@ footer ul li h4{
 footer ul li{
     color: white;
     list-style-type: none;
-
     margin-bottom: 10px;
+}
+
+.footer-line{
+    border: 0.5px solid white;
+    width: 140px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.lang-page{
+    color: #4c4c4c;
 }
