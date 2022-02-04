@@ -421,12 +421,17 @@ footer .float-left{
 footer ul li h4{
     margin-bottom: 20px;
     font-size: 22px;
+    color: white;
 }
 
 footer ul li{
-    color: white;
     list-style-type: none;
     margin-bottom: 10px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
 }
 
 .footer-line{
