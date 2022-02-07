@@ -253,6 +253,7 @@ font-size: 50px;
 
 .col-content ul li{
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 .col-content .btn-blue{
     margin: 30px 0px;
@@ -282,6 +283,10 @@ font-size: 50px;
 .plan-btn{
     width: 100%;
     text-align: center;
+}
+
+.col-content i{
+    margin-left: -20px;
 }
 
 /* THIRD SECTION */
