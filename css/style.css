@@ -1,4 +1,4 @@
-* {
+ cC* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -210,7 +210,7 @@ main h1 {
 #first-section-img {
     position: absolute;
     width: 40%;
-    bottom: -90px;
+    bottom: -20%;
     right: 500px;
 }
 
